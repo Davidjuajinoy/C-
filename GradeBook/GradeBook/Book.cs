@@ -7,7 +7,7 @@ namespace GradeBook
     /// <summary>
     /// sirve para hacer una implementacion del metodo AddGrade abstracto y se sobrescribe en la clase Book 
     /// con la palabra reservada override
-    /// la diferencia entre clase abstracta y interfaz es que la clase abs deja instancias y definir metodos 
+    /// la diferencia entre clase abstracta y interfaz es que la clase abs deja instanciar y definir metodos 
     /// </summary>
     public abstract class Book : NameObject, IBook
     {
