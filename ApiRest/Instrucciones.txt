@@ -1,0 +1,5 @@
+Poner el seed en DB
+
+Administrador de paquetes 
+
+Update-Database (ejecuta el seed)
