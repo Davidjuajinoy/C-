@@ -3,3 +3,47 @@ Poner el seed en DB
 Administrador de paquetes 
 
 Update-Database (ejecuta el seed)
+
+
+crear camp
+
+{
+    "name": "David Camp",
+    "moniker": "DAHJ2025",
+    "eventDate": "2021-03-25",
+    "length": 10,
+    "talks": [],
+    "venue": "DAVID Convention Center",
+    "locationAddress1": "Bosa ",
+    "locationAddress2": null,
+    "locationAddress3": null,
+    "locationCityTown": "Bogota",
+    "locationStateProvince": "BG",
+    "locationPostalCode": "10001",
+    "locationCountry": "Colombia"
+}
+
+
+crear talk 
+
+    {
+        
+        "title": "David POO",
+        "abstract": "trata de Poo",
+        "level": 300,
+        "speaker": {
+            "speakerId": 1
+        }
+    }
+
+put talk
+
+{
+    "talkId": 3,
+    "title": "David POO",
+    "abstract": "trata de Poo programacion orientada a objetos oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+    "level": 400,
+    "speaker": {
+        "speakerId": 2
+	}
+}
